@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    
+}
+header{
+    background-image: url(img/fundo\ hed.png);
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: 'Poiret One', cursive !important;
+}
+header div nav{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+header div a{
+    text-decoration: none;
+    font-size: 42px;
+    padding: 15px;
+    color: white;
+}
+
+header div #biri{
+    color: black !important; 
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header nav a:hover{
+    transform: scale(1.1);
+    color: #EE3483;
+    text-decoration: underline;
+}
+
+#header img{
+    width: 70px;
+    
+}
+
+#header #loguinho{
+    display: flex;
+    align-items: center;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #bd8dff;
+    border-radius: 15px;
+}
+
+#paragrafo p{
+    margin-left: 20px;
+    margin-top: 450px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 48px;
+    margin-bottom: 130px;
+}
+
+.botaoPag{
+    text-decoration: none;
+    background-color: #EE3483;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 42px;
+    margin-left: 450px;
+
+}
+
+#logRoxo{
+    margin-top: -150px;
+    padding-left: 50px;
+    width: 320px;
+}
+
+#icone{
+    display: flex;
+}
+
+#icone h3{
+    display: flex;
+    padding-right: 5px;
+    color: white;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+#icone i{
+    color: red;
+    font-size: 42px;
+}
+
+main{
+    font-family: 'Quicksand', sans-serif
+}
+
+#main1{
+    background-color: #613d94;
+    background-image: url(img/fundo\ main.png);
+    background-size: cover;
+}
+
+#maps1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#texto1{
+    margin: 40px;
+}
+
+#texto1 p {
+    color: white;
+    font-size: 32px;
+}
+
+#maps1 iframe{
+    margin: 30px;
+    border-radius: 20px;
+}
